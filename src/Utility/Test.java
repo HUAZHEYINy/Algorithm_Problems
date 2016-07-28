@@ -1,5 +1,6 @@
 package Utility;
 
+import java.util.ArrayList;
 import java.util.Hashtable;
 
 public class Test {
@@ -7,9 +8,13 @@ public class Test {
 		String str = "12.12";
 		String [] arr;
 		arr = str.split("\\.");
-		System.out.println(arr[0]);
 
-		System.out.println(str);
+		String str1 = "sub\n";
+		System.out.println(str1.charAt(4));
+
+		System.out.println("dummy");
+		
+		ArrayList<ArrayList<String>> list;
 	}
 
 }
