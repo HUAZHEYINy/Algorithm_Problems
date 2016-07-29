@@ -9,12 +9,29 @@ public class Test {
 		String [] arr;
 		arr = str.split("\\.");
 
-		String str1 = "sub\n";
-		System.out.println(str1.charAt(4));
 
-		System.out.println("dummy");
 		
-		ArrayList<ArrayList<String>> list;
+		ArrayList<String> list = new ArrayList<String>();
+		list.add("dir/subdir1");
+		list.add("dir/subdir1/subsubdir1");
+		list.add("dir2/file22.jpeg");
+		for(String srt:list){
+			System.out.println(srt);
+		}
+		for(int i = list.size() -1; i >= 1; i--){
+		if(list.get(i).contains(list.get(i--))){
+			list.remove(i);
+			System.out.println("cotain");
+			}
+		}
+		
+		for(String srt:list){
+			System.out.println(srt);
+		}
+		
+		if("dir2/".contains("dir1/dir12/")){
+			System.out.println("true");
+		}
 	}
 
 }

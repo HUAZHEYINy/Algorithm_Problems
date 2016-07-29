@@ -1,9 +1,11 @@
 package Google_Remove_One_Find_Largest;
 
 public class Solution {
-	
+	/**
+	 * 删除其中的一个数，使结果最大。
+	 * */
 	public static void main(String[] args){
-		System.out.println(findLar(61645));
+		System.out.println(findLar(83455753));
 	}
 	
 	public static int findLar(int nums){

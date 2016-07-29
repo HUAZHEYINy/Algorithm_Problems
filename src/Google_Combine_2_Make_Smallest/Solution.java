@@ -6,7 +6,7 @@ public class Solution {
 
 	public static void main(String[] args) {
 		
-		System.out.println(combine(369852));
+		System.out.println(combine(233614));
 	}
 	
 	public static int combine(int nums){

@@ -1,16 +1,17 @@
-package Longest_Absolute_Path;
+package Google_Find_All_Images_Absolute_Length;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-public class solution {
-	
+public class Solutions {
 	public static void main(String[] args){
-		String str = "dir\n\tsubdir1\n\t\tfile1.ext\n\t\tsubsubdir1\n\tsubdir2\n\t\tsubsubdir2\n\t\t\tfile2.ext\ndir2\n\tsubdir2\n\tfile22.ext";
-		System.out.println("Longest Length:"+findLongestPath(str));
+		String str = "dir\n\tsubdir1\n\t\tfile1.gif\n\t\tsubsubdir1\n\t\t\tfile3.png\n\tsubdir2\n\t\tsubsubdir2\n\t\t\tfile2.ext\nafter.png\ndir2\n\tsubdir2\n\tfile22.jpeg";
+		String str1 = "dir1\n\tdir11\n\tdir12\n\t\tpicture.jpeg\n\t\tdir121\n\t\tfile1.txt\ndir2\n\tfile2.gif";
+		System.out.println("\n\nresult"+findLongestPath(str1));
 	}
-	public static String findLongestPath(String input){
+	
+public static String findLongestPath(String input){
 		
 		ArrayList<String> list = new ArrayList<String>();
         Map<Integer, String> levels = new HashMap<>();
@@ -44,16 +45,26 @@ public class solution {
             }
 
             levelStr = input.substring(firstIndex, lastIndex);
-            
-            if(isFileName(levelStr)){
+
+            if(levelStr.contains(".jpeg") || levelStr.contains(".png")|| levelStr.contains(".gif")){
                 filePath = "";
 
-                for(int i = 0; i < currentLevelCount; i++)
-                    filePath += levels.get(i) + "/";
+                for(int i = 0; i < currentLevelCount; i++){
+                	filePath += levels.get(i) + "/";
 
-                filePath += levelStr;
-
+                }
+                    
+                //filePath += levelStr;
+                //dont count empty...
+                if(!(filePath == "")){
                 list.add(filePath);
+                }
+//                for(String str:list){
+//                	if(filePath.contains(str)){
+//                		break;
+//                	}
+//                }
+                
                 if(filePath.length() > maxLength){
                     maxLength = filePath.length();
                     maxPath = filePath;
@@ -64,18 +75,25 @@ public class solution {
                 levels.put(levelCount, levelStr);
             }
         }
-       
+        
+        for(String str:list){
+        	System.out.println(str);
+        }
+        System.out.println("Above is previous...");
+        //find the shortest path
+        for(int i = list.size() -1; i >= 1; i--){
+    		if(list.get(i).contains(list.get(i-1))){
+    			list.remove(i);
+    			}
+    		}
+        System.out.println("after\n\n");
+        
         for(String str:list){
         	System.out.println(str);
         }
         return maxPath;
     }
 
-    public static boolean isFileName(String input){
+ 
 
-        for(int i = 0; i < input.length(); i++)
-            if(input.charAt(i) == '.') return true;
-
-        return false;
-    }
 }
