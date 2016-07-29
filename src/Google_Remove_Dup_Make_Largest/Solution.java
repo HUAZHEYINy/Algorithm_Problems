@@ -2,7 +2,7 @@ package Google_Remove_Dup_Make_Largest;
 
 public class Solution {
 	public static void main(String[] args){
-	System.out.println(removeDup(223336226));	
+	System.out.println(removeDup(223445627));	
 	}
 	
 	public static int removeDup(int nums){

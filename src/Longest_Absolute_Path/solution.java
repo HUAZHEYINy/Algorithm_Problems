@@ -10,7 +10,7 @@ public class solution {
 		String str = "dir\n\tsubdir1\n\t\tfile1.ext\n\t\tsubsubdir1\n\tsubdir2\n\t\tsubsubdir2\n\t\t\tfile2.ext\ndir2\n\tsubdir2\n\tfile22.ext";
 		System.out.println("Longest Length:"+findLongestPath(str));
 	}
-	public static String findLongestPath(String input){
+	public static int findLongestPath(String input){
 		
 		ArrayList<String> list = new ArrayList<String>();
         Map<Integer, String> levels = new HashMap<>();
@@ -68,7 +68,9 @@ public class solution {
         for(String str:list){
         	System.out.println(str);
         }
-        return maxPath;
+        
+        System.out.println("The longest path: "+maxPath);
+        return maxPath.length();
     }
 
     public static boolean isFileName(String input){
