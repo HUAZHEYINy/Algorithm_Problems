@@ -31,4 +31,18 @@
   <th>Medium</th>
 </tr>
 
+<tr>
+  <th><a href="https://leetcode.com/problems/reverse-words-in-a-string/">151</a></th>
+  <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/No_151_Reverse_Words_in_a_String">Reverse Words in a String</a></th>
+  <th>Java</th>
+  <th>Medium</th>
+</tr>
+
+<tr>
+  <th><a href="https://leetcode.com/problems/compare-version-numbers/">165</a></th>
+  <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/No_165_Compare_Version_Numbers">Compare Version Numbers</a></th>
+  <th>Java</th>
+  <th>Easy</th>
+</tr>
+
 </table>
