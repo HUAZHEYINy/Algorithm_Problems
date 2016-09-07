@@ -13,7 +13,9 @@ public class Solutions {
 	public static void main(String[] args){
 		String str = "dir\n\tsubdir1\n\t\tfile1.gif\n\t\tsubsubdir1\n\t\t\tfile3.png\n\tsubdir2\n\t\tsubsubdir2\n\t\t\tfile2.ext\nafter.png\ndir2\n\tsubdir2\n\tfile22.jpeg";
 		String str1 = "dir1\n\tdir11\n\tdir12\n\t\tpicture.jpeg\n\t\tdir121\n\t\tfile1.txt\ndir2\n\tfile2.gif";
-		System.out.println("\n\nresult"+findLongestPath(str));
+		String str2 = "dir1\n\tdir11\n\tdir12\n\t\tpicture.jpeg\n\t\tdir121\n\t\tfile1.txt\ndir2\n\tfile2.gif";
+		System.out.println("\n\nresult"+findLongestPath(str2));
+		System.out.println("\n\nresult"+solution(str2));
 	}
 	
 public static String findLongestPath(String input){
@@ -59,7 +61,7 @@ public static String findLongestPath(String input){
 
                 }
                     
-                //filePath += levelStr;
+                filePath += levelStr;
                 //dont count empty...
                 if(!(filePath == "")){
                 list.add(filePath);
@@ -101,7 +103,78 @@ public static String findLongestPath(String input){
         System.out.println(max);
         return maxPath;
     }
-
+public static int solution(String S) {
+    
+    //ArrayList to record the path of images.
+    ArrayList<String> list = new ArrayList<String>();
+    //HashMap as Stack <level, dir>
+    HashMap<Integer,String> stack = new HashMap<Integer,String>();
+    
+    int start_Index = 0, end_Index = 0, dir_Count = 0;
+    
+    //find the first dir
+    while(S.charAt(end_Index) != '\n' && end_Index < S.length())
+    {
+        end_Index++;    
+    }
+    
+    //put the first dir with dir count 0
+    stack.put(dir_Count,S.substring(start_Index, end_Index));
+    
+    //iterate the string
+    while(end_Index < S.length())
+    {
+        //skip the \n
+        end_Index++;
+        
+        dir_Count = 0;
+        //re-find the dir count
+        while(S.charAt(end_Index) == '\t')
+        {
+            dir_Count++;
+            end_Index++;
+        }
+        
+        //the beginning index of next string
+        start_Index = end_Index;
+        while(end_Index < S.length() && S.charAt(end_Index) != '\n')
+        {
+            end_Index++;   
+        }
+        
+        //find image files
+        String current_Str = S.substring(start_Index,end_Index);
+        if(current_Str.contains(".jpeg") || current_Str.contains(".png") || current_Str.contains(".gif"))
+        {
+            String file_dir = "";
+            for(int i = 0; i < dir_Count; i++)
+            {
+                file_dir += "/" +stack.get(i);
+            }
+            
+            file_dir += "/" + current_Str;
+            
+            //record the images file path
+            list.add(file_dir);
+        }
+        
+        else
+        {
+            //push new dir to stack
+            stack.put(dir_Count,current_Str);    
+        }   
+    }
+    //display
+    for(String str:list){
+        System.out.println("I am new"+str);
+        }
+    //iterate list to get the total length
+    int max_Length = 0;
+    for(String str:list){
+        max_Length += str.length();
+        }
+    return max_Length;
+}
  
 
 }
