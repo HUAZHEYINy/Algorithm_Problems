@@ -25,6 +25,14 @@
 </tr>
 
 <tr>
+  <th><a href="https://leetcode.com/problems/single-number/">136</a></th>
+  <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/No_136_Single_Number">Single Number</a></th>
+  <th>Java</th>
+  <th>Easy</th>
+</tr>
+
+
+<tr>
   <th><a href="https://leetcode.com/problems/single-number-ii/">137</a></th>
   <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/No_137_Single_Number_II">Single Number II</a></th>
   <th>Java</th>
@@ -43,6 +51,14 @@
   <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/No_165_Compare_Version_Numbers">Compare Version Numbers</a></th>
   <th>Java</th>
   <th>Easy</th>
+</tr>
+
+
+<tr>
+  <th><a href="https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/">167</a></th>
+  <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/No_167_Two_Sum_II">Two Sum II</a></th>
+  <th>Java</th>
+  <th>Medium</th>
 </tr>
 
 </table>
