@@ -61,4 +61,67 @@
   <th>Medium</th>
 </tr>
 
+<tr>
+  <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/No_169_Majority_Element">169</a></th>
+  <th><a href="https://leetcode.com/problems/majority-element/">Majority Element</a></th>
+  <th>Java</th>
+  <th>Easy</th>
+</tr>
+
+<tr>
+  <th><a href="https://leetcode.com/problems/excel-sheet-column-number/">171</a></th>
+  <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/No_171_Excel_Sheet_Column_Number">Excel Sheet Column Number</a></th>
+  <th>Java</th>
+  <th>Easy</th>
+</tr>
+
+<tr>
+  <th><a href="https://leetcode.com/problems/invert-binary-tree/">226</a></th>
+  <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/No_226_Invert_Binary_Tree">Invert Binary Tree</a></th>
+  <th>Java</th>
+  <th>Easy</th>
+</tr>
+
+<tr>
+  <th><a href=""></a></th>
+  <th><a href=""></a></th>
+  <th>Java</th>
+  <th></th>
+</tr>
+
+<tr>
+  <th><a href=""></a></th>
+  <th><a href=""></a></th>
+  <th>Java</th>
+  <th></th>
+</tr>
+
+<tr>
+  <th><a href=""></a></th>
+  <th><a href=""></a></th>
+  <th>Java</th>
+  <th></th>
+</tr>
+
+<tr>
+  <th><a href=""></a></th>
+  <th><a href=""></a></th>
+  <th>Java</th>
+  <th></th>
+</tr>
+
+<tr>
+  <th><a href=""></a></th>
+  <th><a href=""></a></th>
+  <th>Java</th>
+  <th></th>
+</tr>
+
+<tr>
+  <th><a href=""></a></th>
+  <th><a href=""></a></th>
+  <th>Java</th>
+  <th></th>
+</tr>
+
 </table>
