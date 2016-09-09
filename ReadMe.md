@@ -243,8 +243,8 @@
 </tr>
 
 <tr>
-  <th><a href="">*</a></th>
-  <th><a href="">Utility</a></th>
+  <th>*</th>
+  <th>Utility</th>
   <th>Java</th>
   <th>*</th>
 </tr>
