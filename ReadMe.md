@@ -235,11 +235,26 @@
   <th>Easy</th>
 </tr>
 
+
 <tr>
-  <th><a href=""></a></th>
-  <th><a href=""></a></th>
+  <th><a href="https://leetcode.com/problems/power-of-three/">326</a></th>
+  <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/No_326_Power_of_Three"></a>Power of Three</th>
   <th>Java</th>
-  <th></th>
+  <th>Easy</th>
+</tr>
+
+<tr>
+  <th><a href="https://leetcode.com/problems/climbing-stairs/">70</a></th>
+  <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/No_70_Climbing_Stairs">Climbing Stairs</a></th>
+  <th>Java</th>
+  <th>Easy</th>
+</tr>
+
+<tr>
+	<th <a href="https://leetcode.com/problems/merge-two-sorted-lists/">21</a></th>
+	<th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/No_21_Merge_Two_Sorted_Lists">Merge Two Sorted Lists</a></th>
+	<th>Java</th>
+	<th>Easy</th>
 </tr>
 
 <tr>
