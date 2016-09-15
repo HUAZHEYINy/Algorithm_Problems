@@ -258,6 +258,67 @@
 </tr>
 
 <tr>
+  <th><a href="https://leetcode.com/problems/reverse-vowels-of-a-string/">345</a></th>
+  <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/No_345_Reverse_Vowels_of_a_String">Reverse Vowels of a String</a></th>
+  <th>Java</th>
+  <th>Easy</th>
+</tr>
+
+<tr>
+  <th><a href="https://leetcode.com/problems/swap-nodes-in-pairs/">24</a></th>
+  <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/No_342_Power_of_Four">Swap Nodes in Pairs</a></th>
+  <th>Java</th>
+  <th>Easy</th>
+</tr>
+
+
+<tr>
+  <th><a href="https://leetcode.com/problems/power-of-four/">342</a></th>
+  <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/No_342_Power_of_Four">Power of Four</a></th>
+  <th>Java</th>
+  <th>Easy</th>
+</tr>
+
+
+<tr>
+  <th><a href="https://leetcode.com/problems/house-robber/">198</a></th>
+  <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/No_198_House_Robber">House Robber</a></th>
+  <th>Java</th>
+  <th>Easy</th>
+</tr>
+
+<tr>
+  <th><a href="https://leetcode.com/problems/binary-tree-level-order-traversal-ii/">107</a></th>
+  <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/No_107_Binary_Tree_Level_Order_Traversal_II">Binary Tree Level Order Traversal  II</a></th>
+  <th>Java</th>
+  <th>Easy</th>
+</tr>
+
+<tr>
+  <th><a href="https://leetcode.com/problems/plus-one/">66</a></th>
+  <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/No_66_Plus_One">Pluse One</a></th>
+  <th>Java</th>
+  <th>Easy</th>
+</tr>
+
+
+<tr>
+  <th><a href="https://leetcode.com/problems/remove-element/">27</a></th>
+  <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/No_27_Remove_Element">Remove Element</a></th>
+  <th>Java</th>
+  <th>Easy</th>
+</tr>
+
+
+
+<tr>
+  <th><a href=""></a></th>
+  <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/"></a></th>
+  <th>Java</th>
+  <th>Easy</th>
+</tr>
+
+<tr>
   <th>*</th>
   <th>Utility</th>
   <th>Java</th>
