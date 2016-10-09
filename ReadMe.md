@@ -310,10 +310,60 @@
 </tr>
 
 
+<tr>
+  <th><a href="https://leetcode.com/problems/pascals-triangle/">118</a></th>
+  <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/No_118_Pascal_Triangle">Pascal's Triangle</a></th>
+  <th>Java</th>
+  <th>Easy</th>
+</tr>
+<tr>
+  <th><a href="https://leetcode.com/problems/symmetric-tree/">101</a></th>
+  <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/No_101_Symmetric_Tree">Symmetric Tree</a></th>
+  <th>Java</th>
+  <th>Easy</th>
+</tr>
+
+<tr>
+  <th><a href="https://leetcode.com/problems/balanced-binary-tree/">110</a></th>
+  <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/No_110_Balanced_Binary_Tree">Balanced Binary Tree</a></th>
+  <th>Java</th>
+  <th>Easy</th>
+</tr>
+
+
+<tr>
+  <th><a href="https://leetcode.com/problems/binary-tree-level-order-traversal/">102</a></th>
+  <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/No_102_Binary_Tree_Level_Order_Traversal">Binary Tree Level Order Traversal</a></th>
+  <th>Java</th>
+  <th>Easy</th>
+</tr>
+
+
+<tr>
+  <th><a href="https://leetcode.com/problems/factorial-trailing-zeroes/">172</a></th>
+  <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/No_172_Factorial_Trailing_Zeroes">Factorial Trailing Zeroes</a></th>
+  <th>Java</th>
+  <th>Easy</th>
+</tr>
+
+<tr>
+  <th><a href="https://leetcode.com/problems/pascals-triangle-ii/">119</a></th>
+  <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/No_119_Pascal_Transgle_II">Pascal's Triangle II</a></th>
+  <th>Java</th>
+  <th>Easy</th>
+</tr>
+
 
 <tr>
   <th><a href=""></a></th>
   <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/"></a></th>
+  <th>Java</th>
+  <th>Easy</th>
+</tr>
+
+<tr>
+  <th><a href="https://leetcode.com/problems/valid-sudoku/">36</a></th>
+  <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/No_36_Valid_Sudoku">Valid Sudoku</a></th>
   <th>Java</th>
   <th>Easy</th>
 </tr>
