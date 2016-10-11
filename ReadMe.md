@@ -369,6 +369,41 @@
 </tr>
 
 <tr>
+  <th><a href="https://leetcode.com/problems/guess-number-higher-or-lower/">374</a></th>
+  <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/No_374_Guess_Number_Higher_or_Lower">Guess Number Higher or Lower</a></th>
+  <th>Java</th>
+  <th>Easy</th>
+</tr>
+
+<tr>
+  <th><a href="https://leetcode.com/problems/path-sum/">112</a></th>
+  <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/No_112_Path_Sum">Path Sum</a></th>
+  <th>Java</th>
+  <th>Easy</th>
+</tr>
+
+<tr>
+  <th><a href="https://leetcode.com/problems/minimum-depth-of-binary-tree/">111</a></th>
+  <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/No_111_Minimum_Depth_of_Binary_Tree">Minimum Depth of Binary Tree</a></th>
+  <th>Java</th>
+  <th>Easy</th>
+</tr>
+
+<tr>
+  <th><a href="https://leetcode.com/problems/copy-list-with-random-pointer/">138</a></th>
+  <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/No_138_Copy_List_With_Random_Pointer">Copy List with Random Pointer</a></th>
+  <th>Java</th>
+  <th>Hard</th>
+</tr>
+
+<tr>
+  <th><a href=""></a></th>
+  <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/"></a></th>
+  <th>Java</th>
+  <th>Easy</th>
+</tr>
+
+<tr>
   <th>*</th>
   <th>Utility</th>
   <th>Java</th>

@@ -27,7 +27,7 @@ public class solution {
 				
 				int rowIndex = 3 * (i/3);
 				int columnIndex = 3 * (i%3);
-				if (board[rowIndex + j/3][columnIndex + j%3] == '.' 
+				if (board[rowIndex + j/3][columnIndex + j%3] != '.' 
 						&& !cube.add(board[rowIndex + j/3][columnIndex + j%3])) {
 					return false;
 				}
