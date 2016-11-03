@@ -397,12 +397,55 @@
 </tr>
 
 <tr>
+  <th><a href="https://leetcode.com/problems/bulls-and-cows/">299</a></th>
+  <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/No_299_Bulls_and_Cows">Bulls and Cows</a></th>
+  <th>Java</th>
+  <th>Easy</th>
+</tr>
+
+<tr>
+  <th><a href="https://leetcode.com/problems/isomorphic-strings/">205</a></th>
+  <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/No_205_Isomorphic_Strings">Isomorphic Strings</a></th>
+  <th>Java</th>
+  <th>Easy</th>
+</tr>
+
+
+
+<tr>
+  <th><a href="https://leetcode.com/problems/integer-break/">343</a></th>
+  <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/No_343_Integer_Break">Integer Break</a></th>
+  <th>Java</th>
+  <th>Medium</th>
+</tr>
+
+<tr>
+  <th><a href="https://leetcode.com/problems/is-subsequence/">392</a></th>
+  <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/No_392_Is_Subsequence">Is Subsequence</a></th>
+  <th>Java</th>
+  <th>Medium</th>
+</tr>
+
+<tr>
+  <th><a href="https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/">378</a></th>
+  <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/No_378_Kth_Smallest_Element_in_a_Sorted_Matrix">Kth Smallest Element in a Sorted Matrix</a></th>
+  <th>Java</th>
+  <th>Medium</th>
+</tr>
+
+<tr>
+  <th><a href="https://leetcode.com/problems/valid-parentheses/">20</a></th>
+  <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/No_20_Valid_Parentheses">Valid Parentheses</a></th>
+  <th>Java</th>
+  <th>Easy</th>
+</tr>
+
+<tr>
   <th><a href=""></a></th>
   <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/"></a></th>
   <th>Java</th>
   <th>Easy</th>
 </tr>
-
 <tr>
   <th>*</th>
   <th>Utility</th>
