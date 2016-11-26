@@ -444,8 +444,23 @@
   <th><a href=""></a></th>
   <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/"></a></th>
   <th>Java</th>
-  <th>Easy</th>
+  <th>Medium</th>
 </tr>
+
+<tr>
+  <th><a href="https://leetcode.com/problems/battleships-in-a-board/">419</a></th>
+  <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/No_419_Battleships_in_a_Board">Battleships in a Board</a></th>
+  <th>Java</th>
+  <th>Medium</th>
+</tr>
+
+<tr>
+  <th><a href="https://leetcode.com/problems/arithmetic-slices/">413</a></th>
+  <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/No_413_Arithmetic_Slices">Arithmetic Slices</a></th>
+  <th>Java</th>
+  <th>Medium</th>
+</tr>
+
 <tr>
   <th>*</th>
   <th>Utility</th>
