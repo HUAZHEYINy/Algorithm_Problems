@@ -353,14 +353,6 @@
   <th>Easy</th>
 </tr>
 
-
-<tr>
-  <th><a href=""></a></th>
-  <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/"></a></th>
-  <th>Java</th>
-  <th>Easy</th>
-</tr>
-
 <tr>
   <th><a href="https://leetcode.com/problems/valid-sudoku/">36</a></th>
   <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/No_36_Valid_Sudoku">Valid Sudoku</a></th>
@@ -441,13 +433,6 @@
 </tr>
 
 <tr>
-  <th><a href=""></a></th>
-  <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/"></a></th>
-  <th>Java</th>
-  <th>Medium</th>
-</tr>
-
-<tr>
   <th><a href="https://leetcode.com/problems/battleships-in-a-board/">419</a></th>
   <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/No_419_Battleships_in_a_Board">Battleships in a Board</a></th>
   <th>Java</th>
@@ -457,6 +442,28 @@
 <tr>
   <th><a href="https://leetcode.com/problems/arithmetic-slices/">413</a></th>
   <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/No_413_Arithmetic_Slices">Arithmetic Slices</a></th>
+  <th>Java</th>
+  <th>Medium</th>
+</tr>
+
+<tr>
+  <th><a href="https://leetcode.com/problems/minimum-moves-to-equal-array-elements/">453</a></th>
+  <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/No_453_Minumum_Moves_to_Equal_Array_Elements">Minimum Moves to Equal Array Elements</a></th>
+  <th>Java</th>
+  <th>Easy</th>
+</tr>
+
+
+<tr>
+  <th><a href="https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/">462</a></th>
+  <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/No_462_Minimum_Moves_to_Equal_Array_Elements_II"> Minimum Moves to Equal Array Elements II</a></th>
+  <th>Java</th>
+  <th>Medium</th>
+</tr>
+
+<tr>
+  <th><a href=""></a></th>
+  <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/"></a></th>
   <th>Java</th>
   <th>Medium</th>
 </tr>
