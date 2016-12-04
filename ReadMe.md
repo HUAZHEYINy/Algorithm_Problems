@@ -462,6 +462,13 @@
 </tr>
 
 <tr>
+  <th><a href="https://leetcode.com/problems/fizz-buzz/">412</a></th>
+  <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/No_412_Fizz_Buzz">Fizz Buzz</a></th>
+  <th>Java</th>
+  <th>Easy</th>
+</tr>
+
+<tr>
   <th><a href=""></a></th>
   <th><a href="https://github.com/HUAZHEYINy/Algorithm_Problems/tree/master/src/"></a></th>
   <th>Java</th>
